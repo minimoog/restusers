@@ -10,9 +10,15 @@
 		CD0064032330130D00EAE389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0064022330130D00EAE389 /* AppDelegate.swift */; };
 		CD0064052330130D00EAE389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0064042330130D00EAE389 /* ViewController.swift */; };
 		CD0064082330130D00EAE389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0064062330130D00EAE389 /* Main.storyboard */; };
-		CD00640B2330130D00EAE389 /* restusers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD0064092330130D00EAE389 /* restusers.xcdatamodeld */; };
 		CD00640D2330130E00EAE389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD00640C2330130E00EAE389 /* Assets.xcassets */; };
 		CD0064102330130E00EAE389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD00640E2330130E00EAE389 /* LaunchScreen.storyboard */; };
+		CD0064182330136300EAE389 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0064172330136300EAE389 /* User.swift */; };
+		CD00641A2330224C00EAE389 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0064192330224C00EAE389 /* UserCell.swift */; };
+		CD00641C2330379E00EAE389 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00641B2330379E00EAE389 /* Post.swift */; };
+		CD00641E233038BE00EAE389 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00641D233038BE00EAE389 /* UserModel.swift */; };
+		CD006420233038F500EAE389 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00641F233038F500EAE389 /* PostModel.swift */; };
+		CD00642223303A3700EAE389 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00642123303A3700EAE389 /* PostsViewController.swift */; };
+		CD99FBD723303E5C0043CF9F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD99FBD623303E5C0043CF9F /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,16 @@
 		CD0064022330130D00EAE389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD0064042330130D00EAE389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD0064072330130D00EAE389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD00640A2330130D00EAE389 /* restusers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = restusers.xcdatamodel; sourceTree = "<group>"; };
 		CD00640C2330130E00EAE389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD00640F2330130E00EAE389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD0064112330130E00EAE389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0064172330136300EAE389 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CD0064192330224C00EAE389 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		CD00641B2330379E00EAE389 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CD00641D233038BE00EAE389 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CD00641F233038F500EAE389 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		CD00642123303A3700EAE389 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		CD99FBD623303E5C0043CF9F /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +74,13 @@
 				CD00640C2330130E00EAE389 /* Assets.xcassets */,
 				CD00640E2330130E00EAE389 /* LaunchScreen.storyboard */,
 				CD0064112330130E00EAE389 /* Info.plist */,
-				CD0064092330130D00EAE389 /* restusers.xcdatamodeld */,
+				CD0064172330136300EAE389 /* User.swift */,
+				CD0064192330224C00EAE389 /* UserCell.swift */,
+				CD00641B2330379E00EAE389 /* Post.swift */,
+				CD00641D233038BE00EAE389 /* UserModel.swift */,
+				CD00641F233038F500EAE389 /* PostModel.swift */,
+				CD00642123303A3700EAE389 /* PostsViewController.swift */,
+				CD99FBD623303E5C0043CF9F /* PostCell.swift */,
 			);
 			path = restusers;
 			sourceTree = "<group>";
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD00640B2330130D00EAE389 /* restusers.xcdatamodeld in Sources */,
+				CD0064182330136300EAE389 /* User.swift in Sources */,
+				CD006420233038F500EAE389 /* PostModel.swift in Sources */,
+				CD00641E233038BE00EAE389 /* UserModel.swift in Sources */,
+				CD00642223303A3700EAE389 /* PostsViewController.swift in Sources */,
 				CD0064052330130D00EAE389 /* ViewController.swift in Sources */,
+				CD00641C2330379E00EAE389 /* Post.swift in Sources */,
+				CD00641A2330224C00EAE389 /* UserCell.swift in Sources */,
 				CD0064032330130D00EAE389 /* AppDelegate.swift in Sources */,
+				CD99FBD723303E5C0043CF9F /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,19 +364,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CD0064092330130D00EAE389 /* restusers.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CD00640A2330130D00EAE389 /* restusers.xcdatamodel */,
-			);
-			currentVersion = CD00640A2330130D00EAE389 /* restusers.xcdatamodel */;
-			path = restusers.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CD0063F72330130D00EAE389 /* Project object */;
 }
